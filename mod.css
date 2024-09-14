@@ -1,0 +1,568 @@
+/* Dark Mod#kxxe */
+
+/* Цвет выделения текста */
+::selection {background: #899db348; color:#fff; border-radius: 3px;}
+
+/* Вертикальный список друзей в одну колонку */
+
+div.FriendListComponentStyle-scrollCommunity {
+  display: block;
+    width: 37.375em;
+  }
+div.FriendListComponentStyle-stringCommunity {
+    display:inline;
+    padding: 0;
+    margin: 0;  
+  }
+div.FriendListComponentStyle-blockList {
+    background-color: rgba(215, 236, 255, 0.1); 
+  border-radius: 3px;
+  margin-bottom: 3px;  
+  margin-left: 1em;
+
+  }
+div.FriendListComponentStyle-containerFriends {
+  height: 105%;
+  }
+div.FriendListComponentStyle-blockList:hover {
+  /* box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.2); */
+  transition: 0s;
+  }
+div.FriendListComponentStyle-blockList:active {
+    background-color: rgb(255 255 255 / 20%);
+  }
+div.FriendListComponentStyle-blockOnline {
+    margin-left: 0px;
+    margin-right: 0.813em;
+    margin-top: -1.5em;
+  }
+div.FriendListComponentStyle-blockImage {
+    width: 4.375em;
+    height: 4.0em;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+/* Удаляет окно супер-челленджа */
+
+div.EventBattlePassLobbyComponentStyle-buttonEventBattlePass 
+{
+display: none !important;
+}
+
+
+/* ЧАТ СЛЕВА */
+
+div.ChatComponentStyle-chatWindow 
+{
+  background-color: #000000bf !important;
+  backdrop-filter: blur(5px) !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 38.5em;
+  min-width: 37.5em;
+  max-width: 30%;
+  height: 100%;
+  flex: 0 0 auto;
+  align-self: flex-end;
+  left: 0;
+  z-index: 30;
+  box-shadow: none !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-align: start;
+  -webkit-box-pack: start;
+  -webkit-box-flex: 0;
+  user-select: text;
+  position: fixed;
+  animation: slideRight 0.5s ease-in-out forwards; /* Анимация "slideRight" длительностью 1 секунду */
+
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(-100%); /* Начальное положение: за пределами контейнера слева */
+    }
+    to {
+        transform: translateX(0); /* Конечное положение: внутри контейнера справа */
+    }
+}
+
+
+/* НОВОСТИ И ЧАТ */
+
+div.ChatComponentStyle-closeArea
+{
+    background-color: transparent;
+}
+
+div.NewsComponentStyle-closeArea
+{
+    background-color: transparent;
+}
+
+div.NewsComponentStyle-newsWindow
+{
+  background: linear-gradient(to right, #000000d1, rgba(0, 0, 0, 0.5)) !important;
+  backdrop-filter: blur(5px) !important;
+}
+
+
+/* ЛОББИ */
+
+/* Удаляет "+" с кри и танкоинов */
+
+img.UserScoreComponentStyle-addCoinCrystal
+{
+display: none !important;
+}
+
+/* Скрывает кнопки P/T/F11/Z и прочее */
+
+h3.HotKey-commonBlockForHotKey 
+{
+    display: none !important;
+}
+
+div.HotKey-commonBlockForHotKey 
+{
+    display: none !important;
+}
+
+div.BreadcrumbsComponentStyle-backButton h3
+{
+display: none !important;
+}
+
+div.Common-buttonQE
+{
+display: none !important;
+}
+
+
+/* Градиент сверху */
+
+div.MainScreenComponentStyle-containerPanel
+{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+
+/* Симпатичные кнопки */
+
+.MainScreenComponentStyle-blockMainMenu .PrimaryMenuItemComponentStyle-menuItemContainer{
+    width: 27em;
+}
+
+.MainScreenComponentStyle-blockMainMenu .PrimaryMenuItemComponentStyle-itemCommonLi{
+    transition: .7s;
+    border-radius: 1em;
+}
+.MainScreenComponentStyle-blockMainMenu .PrimaryMenuItemComponentStyle-itemCommonLi>div{
+    transition: .33s;
+    border-radius: 1em;
+}
+.MainScreenComponentStyle-blockMainMenu .PrimaryMenuItemComponentStyle-itemCommonLi:hover{
+  backdrop-filter: blur(1px);
+  border: none;
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 1em;
+}
+.MainScreenComponentStyle-blockMainMenu .PrimaryMenuItemComponentStyle-itemCommonLi:hover>div{
+    transform: scale(1.2);
+}
+
+
+.Common-entranceBackground .Common-entranceGradient{
+    background: linear-gradient(#111 0%, #1110 100%);
+}
+
+.ApplicationLoaderComponentStyle-container>div:nth-child(1){
+    background: linear-gradient(#0000 0%, #000 100%) !important;
+}
+
+
+/* Лёгкий блюр на некоторые меню */
+
+div.ModalStyle-rootHover
+{
+backdrop-filter: blur(1px);
+}
+
+
+/* Делает кнопку Играть/Поиск меньше */
+
+/* ИГРАТЬ */
+
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem 
+{
+  background-image: none; /* Пустое фоновое изображение */
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  overflow: hidden;
+  width: 26.9em;
+  max-height: 4.5em;
+  border-radius: 1em;
+  margin-left: .69em;
+  transition: .7s;
+}
+
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-activeItem:hover
+{
+  background-image: none; /* Пустое фоновое изображение */
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  overflow: hidden;
+  max-height: 4.5em;
+  border-radius: 1em;
+  transform: scale(1.04);
+  backdrop-filter: blur(3px);
+  margin-left: .69em;
+  transition: .7s;
+}
+
+
+/* ПОИСК */
+
+.MainScreenComponentStyle-playButtonContainer.MainScreenComponentStyle-buttonPlay.MainScreenComponentStyle-disabledButtonPlay
+{
+  background-image: none; /* Пустое фоновое изображение */
+  backdrop-filter: blur(3px);
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  overflow: hidden;
+  width: 26.9em;
+  max-height: 4.5em;
+  border-radius: 1em;
+  margin-left: .69em;
+}
+
+/* СПИСОК */
+
+div.MainScreenComponentStyle-blockMainMenu 
+{
+  margin-top: -10%;
+  width: 27em;
+  margin-left: 4.375em;
+}
+
+
+/* ИВЕНТЫ */
+
+div.AnnouncementHomeScreenComponentStyle-mainContainer
+{
+overflow: hidden !important;
+transition: 0.1s;
+}
+
+.AnnouncementHomeScreenComponentStyle-mainBackGroundContainer
+{
+height: 7em !important;
+}
+
+
+/* БОЙ */
+
+/* Убирает значки(кнопки) в правом верхнем углу */
+
+
+div.BattleHudComponentStyle-hudButton
+{
+display: none !important;
+}
+
+div.BattleHudComponentStyle-fullScreenButton.BattleHudComponentStyle-hudButton
+{
+display: none !important;
+}
+
+div.BattleHudComponentStyle-pauseButton.BattleHudComponentStyle-hudButton
+{
+display: none !important;
+}
+
+div.BattleHudComponentStyle-tabButton.BattleHudComponentStyle-hudButton
+{
+display: none !important;
+}
+
+
+/* Двигает HUD битвы налево */
+
+div.BattleMessagesComponentStyle-container {
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Изменено на flex-start */
+    padding-left: 25px;
+}
+
+/* Звание и ник */
+
+.UserInfoContainerStyle-userTitleContainer
+{
+    opacity: 0.8 !important;
+}
+
+/* Dark Mod#kxxe */
+
+div.Common-container {
+    background: radial-gradient(50% 50% at 50% -25%, #395673 50%, #000000bf 100%);
+    //background: radial-gradient(50% 100% at 50% 100%, #395673 50%, #000000bf 90%);
+}
+
+div.LobbyLoaderComponentStyle-container {
+    background: radial-gradient(circle, #395673 5%, #000000bf 90%);
+    //#395673background: radial-gradient(50% 100% at 50% 100%, #222 0%, #000 100%);
+}
+
+.ListItemsComponentStyle-itemsListContainer{
+    background: linear-gradient(#0000 0%, #000 100%);
+}
+.ListItemsComponentStyle-itemsListContainer div:has(>img[src="/play/static/images/arrow.2552fe80.svg"]):nth-child(1){
+    background: linear-gradient(90deg, #000 0%, #0000 0%);
+}
+.ListItemsComponentStyle-itemsListContainer div:has(>img[src="/play/static/images/arrow.2552fe80.svg"]):nth-child(2){
+    background: linear-gradient(-90deg, #000 0%, #0000 0%);
+}
+
+div.Common-flexCenterAlignCenter span
+{
+    margin-left: 0 !important;
+}
+
+.Common-flexCenterAlignCenter span {
+    margin-left: 0;
+}
+
+/* ТАБ */
+
+div.BattleTabStatisticComponentStyle-container
+{
+--tt-border-radius: 0.5em !important;
+--tt-border-width: 0.12em !important;
+}
+
+div.BattleTabStatisticComponentStyle-container>:first-child>.tt-background
+{
+background-color: rgb(0 0 0 / 62%) !important;
+}
+
+.BattleTabStatisticComponentStyle-containerInsideResults
+{
+box-shadow: rgb(0, 0, 0) 0em 0em 5px !important;
+}
+
+.BattleTabStatisticComponentStyle-container>:first-child:after
+{
+background-image: linear-gradient(var(--tt-gradient-angle), var(--tt-blue-team-color) 0 50%, rgba(255, 255, 255, 0.15) 0 50.5%, var(--tt-red-team-color) 0 100%) !important;
+}
+
+/* Резисты */
+						
+div.BattleTabStatisticComponentStyle-container table>tbody>tr>:nth-child(2)
+{
+//backdrop-filter: grayscale(30%) !important;
+backdrop-filter: none !important;
+background-color: rgb(0 0 0 / 0%) !important;
+border: none !important;
+}
+
+/* Тёмная тема в магазине */
+
+.SmallShowcaseItemComponentStyle-container
+{
+    background: transparent !important;
+}
+
+#root .MediumShowcaseItemComponentStyle-container, #root .LargeShowcaseItemComponentStyle-container{
+    position: relative;
+    z-index: 1;
+}
+#root .MediumShowcaseItemComponentStyle-container::after, #root .LargeShowcaseItemComponentStyle-container::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1119;
+    z-index: -1;
+}
+#modal-root .SuccessfulPurchaseComponentStyle-container{
+    background: radial-gradient(50% 100% at 50% 100%, #1e2428 0%, #000 100%);
+}
+
+#root .shop-item-component{
+    background: transparent;
+}
+#root .shop-item-component:hover{
+    background: #fff1;
+}
+
+/* Удаляет лого загрузки */
+
+.LobbyLoaderComponentStyle-logo 
+{
+display: none !important;
+}
+
+/* Makxxe по центру */
+
+div.LobbyLoaderComponentStyle-container
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center; /* Центрирование текста по горизонтали */
+}
+
+div.LobbyLoaderComponentStyle-container::before
+{
+    content: "MAKXXE";
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff; /* Цвет текста (белый) */
+    font-family: 'Rubik', sans-serif; /* Шрифт */
+    text-transform: uppercase; /* Преобразование текста в верхний регистр */
+}
+
+/* Цвет челленджа */
+
+div.BattlePassLobbyComponentStyle-menuBattlePass
+{
+background: linear-gradient(0deg, rgba(0, 25, 38, 0.25) 0%, rgb(0, 0, 0) 100%);
+border: 0.063em solid rgba(255, 255, 255, 0.25);
+transition: 0.1s;
+}
+
+/* удаляет гифку в 15 fps из челленджа */
+
+div.QuestsChallengesComponentStyle-blockImage 
+{
+    background-image: none;
+}
+
+/* Левые нижние кнопки */
+
+.FooterComponentStyle-footer li
+{
+    margin: 2px !important;
+    padding: 2px !important;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0.063em solid rgba(0, 0, 0, 0); /* прозрачная рамка */
+    box-sizing: border-box; /* учитываем рамку в общем размере элемента */
+    transition: .7s;
+}
+
+.FooterComponentStyle-footer li:hover{
+    backdrop-filter: blur(3px);
+    margin: 2px !important;
+    padding: 2px !important;
+    border: 0.063em solid rgba(255, 255, 255, 0.25); /* рамка при наведении */
+    background-color: rgba(11, 95, 0, 0.5);
+    transition: .7s;
+}
+
+.FooterComponentStyle-footer li>div
+{
+transition: .33s;
+}
+
+.FooterComponentStyle-footer li:hover>div
+{
+transition: .33s;
+transform: scale(1.2);
+}
+
+
+/* Контекстные меню */
+
+
+div.InvitationWindowsComponentStyle-commonItem 
+{
+  background-color: rgb(0 0 0 / 50%);
+  backdrop-filter: blur(3px);
+}
+
+div.ContextMenuStyle-menu
+{
+  background-color: rgb(0 0 0 / 50%);
+  backdrop-filter: blur(3px);
+  box-shadow: rgb(0 0 0) 0px 0px 0.063em 0px;
+  border-radius: 5px;
+  border: solid 1px #ffffff45;
+}
+
+/* Пауза */
+
+div.BattlePauseMenuDialogComponentStyle-wrapper {
+  border: 1px solid #ffffff00;
+  background-color: #00000075;
+  margin: 2px 0;
+  border-radius: 8px;
+  padding: 2em 0 0.7em 0;
+  max-width: 27em;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  backdrop-filter: blur(1px);
+}
+
+div.BattlePauseMenuComponentStyle-menuButton {
+  border: 1px solid #ffffff12;
+}
+
+div.BattlePauseMenuDialogComponentStyle-content {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div.BattlePauseMenuComponentStyle-selectedMenuRedButton {
+  border: 2px solid rgb(255, 5, 5);
+  margin-top: 20px;
+}
+
+div.BattlePauseMenuComponentStyle-timerContainer span {
+  color: rgb(255 170 0);
+  font-size: 1.5em;
+  position: absolute;
+}
+
+div.BattlePauseMenuComponentStyle-timer {
+  margin-right: 0.3125em;
+  color: transparent;
+}
+
+div.BattlePauseMenuComponentStyle-redMenuButton span {
+  color: rgb(255, 5, 5);
+  font-size: 1.3em;
+  line-height: 100%;
+}
+
+div.BattlePauseMenuComponentStyle-redMenuButton span {
+  text-transform: capitalize;
+}
+
+div.BattlePauseMenuComponentStyle-blackGlobalWrapper {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.6) 100%) center center / cover no-repeat;
+}
+
+div.BattlePauseMenuComponentStyle-timerContainer span {
+  font-size: 1.5em;
+  color: rgb(255 170 0);
+}
+
+div.BattlePauseMenuComponentStyle-menuButton {
+  border: 1px solid #ffffff12;
+  background-color: #ffffff0d;
+  margin: 1px;
+}
