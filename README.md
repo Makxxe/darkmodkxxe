@@ -1,6 +1,6 @@
 # Простой тёмный интерфейс для Tanki Online
 
-Тема вдохновлена [Tanki Tweaks](https://chromewebstore.google.com/detail/tanki-tweaks/khcoecipddmigggaeokhmhmhjhlpcpnb) by Niced и лучше всего работает именно с ним.
+Тема вдохновлена [Tanki Tweaks](https://chromewebstore.google.com/detail/tanki-tweaks/khcoecipddmigggaeokhmhmhjhlpcpnb) by Niced и создана специально для него.
 
 ## [Tanki Tweaks Client](https://github.com/tanki-projects/tanki-tweaks-client)
 
