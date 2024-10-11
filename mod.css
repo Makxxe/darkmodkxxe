@@ -3,6 +3,22 @@
 /* Цвет выделения текста */
 ::selection {background: #899db348; color:#fff; border-radius: 3px;}
 
+/* Результат боя */
+
+div.BattleFinishStyle-container { 
+    position: absolute;
+    background: rgba(0, 0, 0, 0); /* end screen opacity */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start; /* выравнивание по верхнему краю */
+    justify-content: center; /* центрирование по горизонтали */
+    z-index: 1;
+    -webkit-box-align: flex-start;
+    -webkit-box-pack: center;
+}
+
+
 /* Вертикальный список друзей в одну колонку */
 
 div.FriendListComponentStyle-scrollCommunity {
