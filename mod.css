@@ -335,14 +335,10 @@ div.LobbyLoaderComponentStyle-container {
     //#395673background: radial-gradient(50% 100% at 50% 100%, #222 0%, #000 100%);
 }
 
-//.ListItemsComponentStyle-itemsListContainer{
-    background: linear-gradient(#0000 0%, #000 100%);
-}
-
-.ListItemsComponentStyle-itemsListContainer div:has(>img[src="/play/static/images/arrow.2552fe80.svg"]):nth-child(1){
+//.ListItemsComponentStyle-itemsListContainer div:has(>img[src="/play/static/images/arrow.2552fe80.svg"]):nth-child(1){
     background: linear-gradient(90deg, #000 0%, #0000 0%);
 }
-.ListItemsComponentStyle-itemsListContainer div:has(>img[src="/play/static/images/arrow.2552fe80.svg"]):nth-child(2){
+//.ListItemsComponentStyle-itemsListContainer div:has(>img[src="/play/static/images/arrow.2552fe80.svg"]):nth-child(2){
     background: linear-gradient(-90deg, #000 0%, #0000 0%);
 }
 
@@ -390,7 +386,7 @@ border: none !important;
 
 /* Тёмная тема в магазине */
 
-.SmallShowcaseItemComponentStyle-container
+//.SmallShowcaseItemComponentStyle-container
 {
     background: transparent !important;
 }
