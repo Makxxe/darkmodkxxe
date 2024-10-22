@@ -335,7 +335,7 @@ div.LobbyLoaderComponentStyle-container {
     //#395673background: radial-gradient(50% 100% at 50% 100%, #222 0%, #000 100%);
 }
 
-//.ListItemsComponentStyle-itemsListContainer div:has(>img[src="/play/static/images/arrow.2552fe80.svg"]):nth-child(1){
+.ListItemsComponentStyle-itemsListContainer div:has(>img[src="/play/static/images/arrow.2552fe80.svg"]):nth-child(1){
     background: linear-gradient(90deg, #000 0%, #0000 0%);
 }
 
@@ -387,34 +387,9 @@ border: none !important;
 
 /* Тёмная тема в магазине */
 
-//.SmallShowcaseItemComponentStyle-container
+.SmallShowcaseItemComponentStyle-container
 {
     background: transparent !important;
-}
-
-//#root .MediumShowcaseItemComponentStyle-container, #root .LargeShowcaseItemComponentStyle-container{
-    position: relative;
-    z-index: 1;
-}
-//#root .MediumShowcaseItemComponentStyle-container::after, #root .LargeShowcaseItemComponentStyle-container::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #1119;
-    z-index: -1;
-}
-//#modal-root .SuccessfulPurchaseComponentStyle-container{
-    background: radial-gradient(50% 100% at 50% 100%, #1e2428 0%, #000 100%);
-}
-
-//#root .shop-item-component{
-    background: transparent;
-}
-//#root .shop-item-component:hover{
-    background: #fff1;
 }
 
 /* Удаляет лого загрузки */
