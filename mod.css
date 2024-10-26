@@ -130,9 +130,8 @@ div.NewsComponentStyle-newsWindow
 
 /* Удаляет "+" с кри и танкоинов */
 
-img.UserScoreComponentStyle-addRubyCrystal 
-{
-display: none !important;
+img.UserScoreComponentStyle-addRubyCrystal {
+    display: none !important;
 }
 
 /* Скрывает кнопки P/T/F11/Z и прочее */
