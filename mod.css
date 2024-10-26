@@ -130,7 +130,7 @@ div.NewsComponentStyle-newsWindow
 
 /* Удаляет "+" с кри и танкоинов */
 
-img.UserScoreComponentStyle-addCoinCrystal
+img.UserScoreComponentStyle-addRubyCrystal 
 {
 display: none !important;
 }
