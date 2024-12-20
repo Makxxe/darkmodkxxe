@@ -2,12 +2,12 @@
 
 Тема вдохновлена [Tanki Tweaks](https://chromewebstore.google.com/detail/tanki-tweaks/khcoecipddmigggaeokhmhmhjhlpcpnb) by Niced и создана специально для него.
 
-## [Tanki Tweaks Client](https://github.com/tanki-projects/tanki-tweaks-client)
+## [Tanki Tweaks Client](https://github.com/tettov/tanki-tweaks-client)
 
 ## Установка
 
 Рекомендуемая:
-- Установить [Tanki Tweaks Client](https://github.com/tanki-projects/tanki-tweaks-client)
+- Установить [Tanki Tweaks Client](https://github.com/tettov/tanki-tweaks-client)
 - Скачать [Dark Mod#kxxe](https://github.com/Makxxe/darkmodkxxe/releases) и распаковать в:
   - **Windows:** `C:\Users\<имя пользователя>\AppData\Roaming\Tanki Online with Tweaks\extensions`
   - **macOS:** `/Users/<имя пользователя>/Library/Application Support/Tanki Online with Tweaks/extensions`
