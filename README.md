@@ -7,19 +7,19 @@
 ## Установка
 
 Рекомендуемая:
-- Установить [Tanki Tweaks](https://github.com/tanki-projects/tanki-tweaks-client)
-- Скачать Dark Mod#kxxe и распаковать в:
+- Установить [Tanki Tweaks Client](https://github.com/tanki-projects/tanki-tweaks-client)
+- Скачать [Dark Mod#kxxe](https://github.com/Makxxe/darkmodkxxe/releases) и распаковать в:
   - **Windows:** `C:\Users\<имя пользователя>\AppData\Roaming\Tanki Online with Tweaks\extensions`
   - **macOS:** `/Users/<имя пользователя>/Library/Application Support/Tanki Online with Tweaks/extensions`
 
 Для браузера:
-- Скачать Dark Mod#kxxe и распаковать
+- Скачать [Dark Mod#kxxe](https://github.com/Makxxe/darkmodkxxe/releases) и распаковать
 - Добавить в `chrome://extensions/` > Загрузить распакованное расширение
 
 ## **NB!**
 
-- Связь: [Telegram](https://t.me/themakxxe) 
-- Тема создавалась в гедонистических целях и, в первую очередь, **"для себя"**. На данный момент в разработке версия для всех. Когда-нибудь она выйдет.
+- Тема создавалась в гедонистических целях и, в первую очередь, **"для себя"**. На данный момент в разработке версия для всех. (Ни)когда-нибудь она выйдет.
+- Связь: [Telegram](https://t.me/themakxxe)
 
 
 ## Фиксить нельзя терпеть
