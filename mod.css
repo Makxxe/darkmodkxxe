@@ -258,7 +258,7 @@ backdrop-filter: blur(1px);
 
 div.MainScreenComponentStyle-blockMainMenu 
 {
-  margin-top: -5%;
+  margin-top: -5em;
   width: 27em;
   margin-left: 4.375em;
 }
