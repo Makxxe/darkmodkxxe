@@ -1,3 +1,5 @@
+[EN](README.en.md) / [RU](README.md)
+
 # Простая тёмная тема для Tanki Online
 
 Тема вдохновлена [Tanki Tweaks](https://chromewebstore.google.com/detail/tanki-tweaks/khcoecipddmigggaeokhmhmhjhlpcpnb) by Niced и создана специально для него.
