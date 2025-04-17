@@ -1,3 +1,5 @@
+[EN](README.en.md) / [RU](README.md)
+
 # Simple Dark Theme for Tanki Online
 
 Theme is inspired by [Tanki Tweaks](https://chromewebstore.google.com/detail/tanki-tweaks/khcoecipddmigggaeokhmhmhjhlpcpnb) by Niced and made specifically for it.
