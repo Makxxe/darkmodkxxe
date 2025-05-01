@@ -134,6 +134,10 @@ img.UserScoreComponentStyle-addRubyCrystal {
     display: none !important;
 }
 
+img.UserScoreComponentStyle-addCoins {
+    display: none !important;
+}
+
 /* Скрывает кнопки P/T/F11/Z и прочее */
 
 h3.HotKey-commonBlockForHotKey 
