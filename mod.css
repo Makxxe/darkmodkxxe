@@ -2,16 +2,8 @@
 
 /* Цвет выделения текста */
 ::selection {
-    background: #899db348;
-    border-radius: 3px;
-}
-::-moz-selection {
-    background: #899db348;
-    border-radius: 3px;
-}
-::-webkit-selection {
-    background: #899db348;
-    border-radius: 3px;
+  background: #123456 !important;
+  color: white !important;
 }
 
 
