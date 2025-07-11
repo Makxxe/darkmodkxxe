@@ -2,8 +2,7 @@
 
 /* Цвет выделения текста */
 ::selection {
-    background: #899db348;
-    border-radius: 3px;
+    background: rgba(137, 157, 179, 0.28);
 }
 
 /* Результат боя */
