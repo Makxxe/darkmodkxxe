@@ -1,11 +1,7 @@
 /* Dark Mod#kxxe */
 
 /* Цвет выделения текста */
-::selection {
-  background: #123456 !important;
-  color: white !important;
-}
-
+::selection { background: #123456 !important; color: white !important; }
 
 /* Результат боя */
 
