@@ -563,3 +563,9 @@ div.BattlePauseMenuComponentStyle-menuButton {
   background-color: #ffffff0d;
   margin: 1px;
 }
+
+/* Удаляет техническую информацию снизу экрана */
+
+div.ClientInfoComponentStyle-main {
+	display: none !important
+}
